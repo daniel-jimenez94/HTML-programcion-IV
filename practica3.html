@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Empleado</title>
+	</head>
+	<body>
+		<h1>Agregar Empleado</h1>
+		<div>
+			<form action="datos.html" method="GET">
+				<fieldset>
+					<legend><h2>Laboral</h2></legend><br/>
+
+					<label for="Codigo">Codigo *</label><br/>
+					<input type="Codigo" size="10" maxlength="10" id="Codigo" name="Codigo" value="" /><br/><br/>
+					<label for="FechaN">Fecha de ingreso (dd/mm/aaaa)</label><br/>
+					<input type="FechaN" size="10" maxlength="10" id="FechaN" name="FechaN" value="" /><br/><br/>
+					<label for="SegSoc">Seguridad Social *</label><br/>
+					<select id="SegSoc" name="SegSol">
+						<option value="-1"></option>
+						<option value="1">IMSS</option>
+						<option value="2">ISSSTE</option>
+						<option value="3">Secretaria de Salud</option>
+						<option value="4">Salud Publica</option>
+					</select><br/><br/>
+					<label for="Numero">Numero</label><br/>
+					<input type="Numero" size="15" maxlength="15" id="Numero" name="Numero" value="" /><br/>
+					<br/>
+				</fieldset>
+				<br/><br/>
+
+				<fieldset>
+					<legend><h2>Personal</h2></legend><br/>
+					
+					<label for="Nombre">Nombre *</label><br/>
+					<input type="Nombre" size="40" maxlength="40" id="Nombre" name="Nombre" value="" /><br/><br/>
+					<label for="ApePat">Apellido Paterno *</label><br/>
+					<input type="ApePat" size="20" maxlength="20" id="ApePat" name="ApePat" value="" /><br/><br/>
+					<label for="ApeMat">Apellido Materno *</label><br/>
+					<input type="ApeMat" size="20" maxlength="20" id="ApeMat" name="ApeMat" value="" /><br/><br/>
+					
+					
+					<label for="sex1">Sexo</label><br/>
+					<input type="radio" id="sex1" name="Sexo" value="1">
+					<label for="sex1">Hombre</label>
+					<input type="radio" id="sex2" name="Sexo" value="2">
+					<label for="sex2">Mujer</label><br/><br/>
+					<label for="EstCiv">Estado Civil</label><br/>
+					<select id="EstCiv" name="EstCiv">
+						<option value="-1"></option>
+						<option value="1">Soltero</option>
+						<option value="2">Casado</option>
+					</select><br/><br/>
+				</fieldset>
+				<br/><br/>
+
+				<fieldset>
+					<legend><h2>Nacimiento</h2></legend><br/>
+					<label for="Fecha">Fecha (dd/mm/aaaa)</legend><br/>
+					<input type="Fecha" size="10" maxlength="10" id="Fecha" name="Fecha" value=""><br/><br/>
+					<label for="Pais">Pa&iacute;s</label><br/>
+					<select id="Pais" name="Pais">
+						<option value="-1"></option>
+						<option value="1">Mexico</option>
+						<option value="2">EUA</option>
+						<option value="3">Alemania</option>
+						<option value="4">China</option>
+						<option value="5">Chile</option>
+						<option value="6">Inglaterra</option>
+						<option value="7">Holanda</option>
+						<option value="8">Rusia</option>	
+					</select><br/><br/>
+				</fieldset>
+				<br/><br/>				
+
+				<fieldset>
+					<legend><h2>Contacto</h2></legend>
+
+						<label for="Titulo">Titulo</label><br/>
+						<input type="Titulo" size="20" maxlength="20" id="Titulo" name="Titulo" value="" /><br/><br/>
+						<label for="Curp">CURP</label><br/>
+						<input type="Curp" size="20" maxlength="20" id="Curp" name="Curp" value="" /><br/><br/>
+						<label for="RFC">RFC</label><br/>
+						<input type="RFC" size="10" maxlength="10" id="RFC" name="RFC" value="" /><br/><br/>
+						<label for="Telefono">Tel&eacute;fono</label><br/>
+						<input type="Telefono" size="8" maxlength="8" id="Telefono" name="Telefono" value="" /><br/><br/>
+						<label for="Celular">Celular</label><br/>
+						<input type="Celular" size="14" maxlength="14" id="Celular" name="Celular" value="" /><br/><br/>
+						<label for="Dom">Domicilio</label><br/>
+						<input type="Dom" size="50" maxlength="30" id="Dom" name="Dom" value="" /><br/><br/>
+						<label for="Colonia">Colonia</label><br/>
+						<input type="Colonia" size="15" maxlength="15" id="Colonia" name="Colonia" value="" /><br/><br/>
+						<label for="CodPos">C&oacute;digo</label><br/>
+						<input type="CodPos" size="5" maxlength="8" id="CodPos" name="CodPos" value="" /><br/><br/>
+						<label for="Pais2">Pa&iacute;s</label><br/>
+						<select id="Pais2" name="Pais2">
+							<option value="-1"></option>
+							<option value="1">Mexico</option>
+							<option value="2">EUA</option>
+							<option value="3">Alemania</option>
+							<option value="4">China</option>
+							<option value="5">Chile</option>
+							<option value="6">Inglaterra</option>
+							<option value="7">Holanda</option>
+							<option value="8">Rusia</option>	
+						</select><br/><br/>
+						<label for="Rad">Radio</label><br/>
+						<input type="Rad" size="20" maxlength="20" id="Rad" name="Rad" value="" /><br/><br/>
+						<label for="Correo">Correo Electr&oacutenico</label><br/>
+						<input type="Correo" size="30" maxlength="30" id="Correo" name="Correo" value="" /><br/><br/>
+						<label for="Obs">Observaciones</label><br/>
+						<input type="Obs" size="80" maxlength="200" id="Obs" name="Obs" value="" /><br/><br/>
+
+						<input type="hidden" name="oculto" value="10">
+				</fielset>
+				<input type="submit" name="Enviar" value="Agregar"/>
+				<input type="reset" name="Cancelar" value="Cancelar"/>			
+			</form>
+		</div>
+	</body>
+</html>
